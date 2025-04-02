@@ -3,6 +3,11 @@
     "build": {
       "dockerfile": "Dockerfile"
     },
+    "features": {
+      "ghcr.io/devcontainers/features/java": {
+        "version": "17"
+      }
+    },
     "runArgs": [ "--network", "host" ],
 
     // Set *default* container specific settings.json values on container create.

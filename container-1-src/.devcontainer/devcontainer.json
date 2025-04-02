@@ -3,6 +3,11 @@
     "build": {
       "dockerfile": "Dockerfile"
     },
+    "features": {
+      "ghcr.io/devcontainers/features/java": {
+        "version": "8"
+      }
+    },
     "runArgs": [ "--network", "host" ],
 
     // Add the IDs of extensions you want installed when the container is created.
