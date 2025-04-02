@@ -6,6 +6,10 @@
     "features": {
       "ghcr.io/devcontainers/features/java": {
         "version": "8"
+      },
+      "ghcr.io/devcontainers/features/docker-outside-of-docker": {
+        "version": "latest",
+        "moby": false
       }
     },
     "runArgs": [ "--network", "host" ],
